@@ -1,4 +1,4 @@
-package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
+package.path = package.path .. '  ;.luarocks/share/lua/5.2/?.lua'
   ..';.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
@@ -228,7 +228,7 @@ function create_config( )
       "weather",
       "xkcd",
       "youtube" },
-    sudo_users = {our_id},
+    sudo_users = {67285212},
     disabled_channels = {}
   }
   serialize_to_file(config, './data/config.lua')
